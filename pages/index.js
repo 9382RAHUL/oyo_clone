@@ -4,7 +4,7 @@ import Header2 from "@/components/Header2";
 import Header3 from "@/components/Header3";
 import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
+
 import Header4 from "@/components/Header4";
 import Footer from "@/components/Footer";
 
