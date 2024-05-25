@@ -8,7 +8,7 @@ const Filters = ({price,setprice,handleprice,checkedlist,setcheckedlist}) => {
   const [list, setlist] = useState([]);
   const fetchfacilities = async () => {
     try {
-      const { data } = await axios.get(`http://localhost:3000/api/facilities`);
+      const { data } = await axios.get(`/api/facilities`);
         console.log(data);
       if (data?.facilties) {
         // console.log(data.facilities);
